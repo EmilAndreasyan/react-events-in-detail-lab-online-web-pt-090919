@@ -13,7 +13,7 @@ export default class CoordinatesButton extends React.Component {
   }
   
   handleCoordinates = (event) => {
-    this.props.onReceiveCoordinates = 
+    this.props.onReceiveCoordinates([event.clientX, event.clientY])
   }
   
 }

@@ -9,8 +9,8 @@ export default class CoordinatesButton extends React.Component {
     )
   }
   
-  handleCoordinates = (event) => {
-    this.props.onReceiveCoordinates([event.clientX, event.clientY])
-  }
+ handleCoordinates = event => {
+   this.props.
+ }
   
 }

@@ -8,7 +8,7 @@ export default class CoordinatesButton extends React.Component {
   
   render(){
     return (
-    <button onMouseMove={this.handleCoordinates}>Receive coordinates</button>  
+    <button onClick={this.handleCoordinates}>Receive coordinates</button>  
     )
   }
   

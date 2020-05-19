@@ -10,8 +10,8 @@ export default class DelayedButton extends React.Component {
     )
   }
   
-  handleDelay = () => {
-    
+  handleDelay = (ev) => {
+    ev.persist()
   }
   
 }
